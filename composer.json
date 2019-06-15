@@ -1,27 +1,32 @@
 {
     "name": "qlimix/encoding",
-    "type": "package",
-    "license": "LGPL-3.0-only",
+    "type": "library",
+    "description": "Encoding & decoding array's to string and vice versa",
+    "license": "MIT",
+    "keywords": [
+        "qlimix",
+        "encoding",
+        "decoding",
+        "decode",
+        "encode"
+    ],
     "authors": [
         {
             "name": "frank",
             "email": "frank@qlimix.net"
         }
     ],
+    "require": {
+        "php": ">=7.2"
+    },
     "autoload": {
         "psr-4": {
             "Qlimix\\Encoding\\": "src/"
         }
     },
-    "require": {
-    },
-    "suggest": {
-    },
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require-dev": {
         "qlimix/code-standard": "^1.0"
     }
