@@ -7,11 +7,9 @@ use Qlimix\Encoding\Encode\Exception\EncodeException;
 interface EncodeInterface
 {
     /**
-     * @param array $message
-     *
-     * @return string
+     * @param mixed[] $value
      *
      * @throws EncodeException
      */
-    public function encode(array $message): string;
+    public function encode(array $value): string;
 }

@@ -7,11 +7,9 @@ use Qlimix\Encoding\Decode\Exception\DecodeException;
 interface DecodeInterface
 {
     /**
-     * @param string $message
-     *
-     * @return array
+     * @return mixed[]
      *
      * @throws DecodeException
      */
-    public function decode(string $message): array;
+    public function decode(string $value): array;
 }

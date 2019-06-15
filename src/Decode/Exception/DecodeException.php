@@ -2,6 +2,8 @@
 
 namespace Qlimix\Encoding\Decode\Exception;
 
-final class DecodeException extends \Exception
+use Exception;
+
+final class DecodeException extends Exception
 {
 }
