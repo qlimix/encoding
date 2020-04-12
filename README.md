@@ -1,7 +1,7 @@
 # encoding
 
 [![Travis CI](https://api.travis-ci.org/qlimix/encoding.svg?branch=master)](https://travis-ci.org/qlimix/encoding)
-[![Coveralls](https://img.shields.io/coveralls/github/qlimix/encoding.svg)](https://coveralls.io/qlimix/encoding)
+[![Coveralls](https://img.shields.io/coveralls/github/qlimix/encoding.svg)](https://coveralls.io/github/qlimix/encoding)
 [![Packagist](https://img.shields.io/packagist/v/qlimix/encoding.svg)](https://packagist.org/packages/qlimix/encoding)
 [![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/qlimix/encoding/blob/master/LICENSE)
 
