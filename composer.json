@@ -4,7 +4,6 @@
     "description": "Encoding & decoding array's to string and vice versa",
     "license": "MIT",
     "keywords": [
-        "qlimix",
         "encoding",
         "decoding",
         "decode",
@@ -17,7 +16,10 @@
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "qlimix/code-standard": "^2.0"
     },
     "autoload": {
         "psr-4": {
@@ -26,8 +28,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "require-dev": {
-        "qlimix/code-standard": "^1.0"
     }
 }
